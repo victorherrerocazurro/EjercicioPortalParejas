@@ -11,17 +11,15 @@
 	<table>
 		<tr>
 			<th>Nombre</th>
-			<th>Apellido</th>
 			<th>Edad</th>
-			<th>Sexo</th>
+			<th>Genero</th>
 			<th>Altura</th>
 		</tr>
 		<c:forEach items="${afines}" var="persona">
 			<tr>
 				<td>${persona.nombre}</td>
-				<td>${persona.apellido}</td>
 				<td>${persona.edad}</td>
-				<td>${persona.sexo}</td>
+				<td>${persona.genero}</td>
 				<td>${persona.altura}</td>
 			</tr>
 		</c:forEach>

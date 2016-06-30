@@ -10,9 +10,8 @@
 <body>
 	<c:if test="${ideal ne null}">
 		<div>${ideal.nombre}</div>
-		<div>${ideal.apellido}</div>
 		<div>${ideal.edad}</div>
-		<div>${ideal.sexo}</div>
+		<div>${ideal.genero}</div>
 		<div>${ideal.altura}</div>
 	</c:if>
 </body>

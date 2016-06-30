@@ -34,9 +34,9 @@ public class PersonaDaoHibernateImpl implements PersonaDao {
 	public Collection<Persona> getAll() {
 		Session session = sessionFactory.getCurrentSession();
 		session.beginTransaction();
-		List<Persona> facturas=session.createQuery("from Persona").list();
+		List<Persona> personas=session.createQuery("from Persona").list();
 		session.getTransaction().commit();
-		return facturas;
+		return personas;
 	}
 
 	@Override

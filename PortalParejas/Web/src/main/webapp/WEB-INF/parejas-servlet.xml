@@ -18,10 +18,10 @@
 		<property name="hibernateProperties">
 			<props>
 				<prop key="hibernate.dialect">org.hibernate.dialect.DerbyDialect</prop>
-				<prop key="hibernate.show_sql">false</prop>
+				<prop key="hibernate.show_sql">true</prop>
 				<prop key="hibernate.format_sql">true</prop>
 				<prop key="hibernate.current_session_context_class">thread</prop><!-- "jta", "thread" y "managed" -->
-				<prop key="hibernate.hbm2ddl.auto">create</prop><!-- create, validate, update -->
+				<prop key="hibernate.hbm2ddl.auto">validate</prop><!-- create, validate, update -->
 				<prop key="hibernate.default_schema">PORTALPAREJAS</prop>
 			</props>
 		</property>

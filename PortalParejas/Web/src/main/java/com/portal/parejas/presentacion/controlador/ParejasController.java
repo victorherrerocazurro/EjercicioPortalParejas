@@ -18,7 +18,7 @@ public class ParejasController {
 	}
 
 	@RequestMapping("afines.html")
-	//http://localhost:8080/PortalDeParejas/Parejas/afines.html?id=1
+	//http://localhost:8081/Web/Parejas/afines.html?id=1
 	public String busquedaDeAfines(Integer id, Model model){
 		Persona persona = servicio.login(id);
 		Collection<Persona> afines = servicio.getAfines(persona);
