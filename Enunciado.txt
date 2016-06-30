@@ -1,0 +1,12 @@
+Partiendo del repositorio https://github.com/victorherrerocazurro/EjercicioPortalParejas ya mavenizado, incluir soporte con plugins de Maven para
+
+-Test Unitarios de Negocio
+-Test e Integracion (recordar en este caso la dpendencia con Selenium y la necesidad de que la app este desplegada, así como la existencia de una BD con los datos que estan en el fichero https://github.com/victorherrerocazurro/EjercicioPortalParejas/tree/master/PortalParejas/Entidades/sql/inserts.sql)
+-Cobertura
+-Javadoc
+
+Configurar el proyecto para que se genere un Sitio Maven con la informacion de los reportes, así como la información de los desarrolladores
+
+Trasladar la ejecución a jenkins para que vigile el estado de nuestro proyecto todas las noches a las 00.00, realizando el seguimiento con las versiones de Java 7 y 8.
+
+Configurar la tarea para que corra en un nodo distinto al principal.
